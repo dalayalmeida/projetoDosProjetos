@@ -11,6 +11,14 @@ public class Table {
 		this.columns = columns;
 		this.name = name;
 	}
+
+	public Table() {
+	}
+	
+	public void addColumn(Column c) {
+		columns.add(c);
+	}
+	
 	public LinkedList<Column> getColumns() {
 		return columns;
 	}
